@@ -17,7 +17,7 @@ const AboutMe = (props) => {
     //www.youtube.com/@ahrmoran
     return ( 
         <>
-            <div id="resume" className='center'>
+            <div id="resume" className="center">
                 <p> 
                     hi! this is <strong>angel®</strong>, a random 19 year old student with a huge appetite of success.
                     artist, dj, engineer and creative developer.

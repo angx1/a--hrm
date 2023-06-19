@@ -3,6 +3,8 @@
 
 #resume{
     font-size: 40px;
+    height: 90%;
+    
 }
 
 
@@ -45,6 +47,7 @@ left: 50%;
 
 #link-img{
     cursor: pointer;
+    
 }
 
 
