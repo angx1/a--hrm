@@ -25,7 +25,7 @@ const LinkModal = (props) => {
                 }}></button>
 
 
-                <div className="container text-center" id="links-modal">
+                <div className="container text-center" >
                     <div className="row">
                     
                         <div className="col">

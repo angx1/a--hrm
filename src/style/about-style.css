@@ -2,30 +2,20 @@
 
 
 #resume{
-
-    width: 500px;
-    height: 570px;
-    color:aliceblue;
-    animation: aparition-an 1.5s;
-    
-}
-
-
-
-#resume p{
-    margin: 10px;
     font-size: 40px;
-    position: absolute;
-    left: 5%;
 }
 
 
 #social{
-    width: 100%;
+    
     position: absolute;
-    float: left;
-    bottom:-5%;
-    left: 7%;
+    
+}
+
+@media (max-width: 1000px){
+    #resume p{
+        font-size: 30px;
+    }
 }
 /*
 left: 50%;
@@ -46,10 +36,10 @@ left: 50%;
 
 .logo-1{
     position: absolute;
-    right: -10%;
-    top: 110%;
-    width: 100%;
-    filter:opacity(60%);
+    bottom: 5%;
+    width: 40%;
+    right: 60px;
+    filter: opacity(60%);
     
 }
 
@@ -62,7 +52,7 @@ left: 50%;
 #links-container{
     animation: aparition-an 1s;
     width: 170px;
-    height: 70px;
+    height: 200px;
     backdrop-filter: blur(2px) brightness(105%);
     
 }

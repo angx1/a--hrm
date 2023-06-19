@@ -13,16 +13,16 @@ const AboutMe = (props) => {
     
     const [links_state, setLinksState] = useState(false);
     
-
+   
     //www.youtube.com/@ahrmoran
     return ( 
         <>
-            <div id="resume" className="position-absolute center">
-                <div className="container">
-                    <p className="text-break"> 
+            <div id="resume" className='center'>
+                <p> 
                     hi! this is <strong>angel®</strong>, a random 19 year old student with a huge appetite of success.
                     artist, dj, engineer and creative developer.
-                </p></div>
+                </p>
+            
                 <div id="social">
                     <img className="logo-2" src={LINKS} alt="a-rm logo" id="link-img" onClick={() => {
                         document.body.style.overflow = "hidden";
@@ -34,9 +34,10 @@ const AboutMe = (props) => {
                 
 
                 {links_state ? <LinkModal close={(close) => {close ? setLinksState(false) : setLinksState(true);}}/> : <></>}
-                <img className="logo-1" src={PERSONAL} alt="a-rm logo" />    
+                  
 
             </div>
+            <img className="logo-1" src={PERSONAL} alt="a-rm logo" />  
         </>
      );
 }
