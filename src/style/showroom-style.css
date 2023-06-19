@@ -1,0 +1,15 @@
+
+
+#artwork-frame{
+    width: 150px;
+    cursor: pointer;
+    animation: aparition-an 2s;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+    #artwork-frame{
+        width: 100px;
+    }
+}

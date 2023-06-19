@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "title": "afterlife set vol1",
+        "description": "here is my first ever recorded mix with afterlife theme. Filmed on sony handycam and played with Hercules dj control impulse 500",
+        "image": "../media/vinyl/alien-vinyl.png"
+        
+
+    },
+    {
+        "id": 2,
+        "title": "session test 2",
+        "description": "here is a test description for test 2",
+        "image": "../media/vinyl/bluish-vinyl.png"
+
+    },
+    {
+        "id": 3,
+        "title": "session test 3",
+        "description": "here is a test description for test 3",
+        "image": "../media/vinyl/cats-vinyl.png'"
+
+    },
+    {
+        "id": 4,
+        "title": "session test 4",
+        "description": "here is a test description for test 4",
+        "image": "../media/vinyl/redblack-vinyl.png"
+
+    },
+    {
+        "id": 2,
+        "title": "session test",
+        "description": "here is a test description for test 4",
+        "image": "../media/vinyl/alien-vinyl.png"
+
+    }
+]
