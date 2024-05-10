@@ -1,7 +1,7 @@
 {
   "name": "website",
   "version": "0.1.0",
-  "homepage": "https://angx1.github.io/a--hrm/",
+  "homepage": "http://a--hrm.com",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
