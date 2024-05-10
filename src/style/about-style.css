@@ -1,15 +1,10 @@
-
-
-
 #resume{
     font-size: 40px;
 }
 
 
 #social{
-    
     position: absolute;
-    
 }
 
 @media (max-width: 1000px){
@@ -48,13 +43,29 @@ left: 50%;
     cursor: pointer;
 }
 
+#links{
+    position: absolute;
+    bottom: 0;
+}
 
 
 #links-container{
     animation: aparition-an 1s;
     width: 170px;
-    height: 200px;
-    backdrop-filter: blur(2px) brightness(105%);
+    height: 100px;
+    backdrop-filter: blur(14px) brightness(105%);
     
 }
 
+.btn-close{
+    width: 2px;
+    height: 2px;
+}
+
+#modal-close-button{
+    position: absolute;
+    left: 0;
+    top: 0;
+    cursor: pointer;
+    margin: 10px;
+}

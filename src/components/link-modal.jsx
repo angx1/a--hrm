@@ -25,14 +25,13 @@ const LinkModal = (props) => {
                 }}></button>
 
 
-                <div className="container text-center" >
+                <div className="container text-center" id="links">
                     <div className="row">
-                    
-                        <div className="col">
-                            <a href="https://youtube.com/@ahrmoran" rel="noreferrer" target="_blank"><img className="logo" src={YOUT} alt="youtube logo" /></a>
-                        </div>
                         <div className="col">
                             <a href="https://www.pinterest.es/ahrmoran/" rel="noreferrer" target="_blank"><img className="logo" src={PINT} alt="pinterest logo" /></a>
+                        </div>  
+                        <div className="col">
+                            <a href="https://youtube.com/@ahrmoran" rel="noreferrer" target="_blank"><img className="logo" src={YOUT} alt="youtube logo" /></a>
                         </div>
                         <div className="col">
                             <a href="https://www.instagram.com/ahrmoran/" rel="noreferrer" target="_blank"><img className="logo-2" src={IG} alt="instagram logo" /></a> 
