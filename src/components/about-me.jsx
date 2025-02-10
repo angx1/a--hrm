@@ -19,7 +19,7 @@ const AboutMe = (props) => {
         <>
             <div id="resume" className="center">
                 <p> 
-                    hi! this is <strong>angel®</strong>, a 20 years old student with a huge appetite of success.
+                    hi! this is <strong>angel®</strong>, a 21 years old student with a huge appetite of success.
                     artist, dj, engineer and creative developer.
                 </p>
             
